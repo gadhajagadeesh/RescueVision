@@ -1,0 +1,24 @@
+# Python virtual environment
+.venv/
+
+# Datasets - too large for GitHub
+Dataset/
+datasets/
+
+# Training/detection outputs
+runs/
+results/
+
+# Model weights
+*.pt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# Temporary/system files
+.DS_Store
+Thumbs.db
