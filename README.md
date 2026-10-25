@@ -71,3 +71,51 @@ RescueVision/
 │   └── test_detector.py
 ├── .gitignore
 └── README.md
+
+
+
+## Setup and Run Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/gadhajagadeesh/RescueVision.git
+cd RescueVision
+```
+
+### 2. Create a Virtual Environment
+
+For Windows:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+streamlit run app.py
+```
+
+Open the local URL displayed in the terminal to use the RescueVision application.
+
+## Important Notes
+
+- The datasets and trained model weights are not included in this repository.
+- The required model files must be obtained separately and placed in the paths expected by the application.
+- Detection results depend on the model used, confidence threshold, and input image.
+- Image enhancement methods are experimental; their effectiveness must be evaluated on the relevant datasets.
+
+## Team
+
+- Gadha J
+- Hari Krishna
+- Upasana
