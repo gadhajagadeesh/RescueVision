@@ -22,3 +22,13 @@ __pycache__/
 # Temporary/system files
 .DS_Store
 Thumbs.db
+
+# Large dataset/model archives
+*.zip
+
+# Backup files
+app_checkpoint_backup.py
+app_local_backup.py
+
+# Python environment files
+.env

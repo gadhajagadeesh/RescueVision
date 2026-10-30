@@ -1,4 +1,3 @@
-
 streamlit
 ultralytics
 opencv-python
@@ -6,4 +5,5 @@ numpy
 Pillow
 pandas
 scikit-learn
+scikit-image
 matplotlib
